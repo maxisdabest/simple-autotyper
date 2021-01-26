@@ -36,5 +36,5 @@ End IF
 strtext = inputbox ("Write down your message you like to spam")
 strtimes = inputbox ("How many times do you like to spam? Type in 1 less than the amount of msgs you want to spam. eg; if want to spam 1000, type 999")
 strspeed = inputbox ("Type 1000 for 1 msg per second 100 for 10 msg per second etc type 1 for fastest")
-strtimeneed = inputbox ("How many SECONDS do you need to get to your victims (tom's) input box? Click where you want to spam")
+strtimeneed = inputbox ("How many SECONDS do you need to get to your victims input box? Click where you want to spam")
 loop
