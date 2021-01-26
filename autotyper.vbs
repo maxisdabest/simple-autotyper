@@ -1,6 +1,6 @@
 set shell = createobject ("wscript.shell")
 
-strtext = inputbox ("Created by maxisdabest")
+strtext = MsgBox ("Created by maxisdabest")
 strtext = inputbox ("Write down your message you like to spam")
 strtext2 = inputbox ("Message 2")
 strtext3 = inputbox ("Message 3")
@@ -39,3 +39,4 @@ strtimes = inputbox ("How many times do you like to spam? Type in 1 less than th
 strspeed = inputbox ("Type 1000 for 1 msg per second 100 for 10 msg per second etc type 1 for fastest")
 strtimeneed = inputbox ("How many SECONDS do you need to get to your victims input box? Click where you want to spam")
 loop
+end if
